@@ -180,11 +180,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1e79dc00fde5474da5cc93c83aa1a8e, type: 3}
---- !u!4 &418685875 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4667900853003267359, guid: d6834fe065295814d8d657cc943fffec, type: 3}
-  m_PrefabInstance: {fileID: 4667900852616564396}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &671943991
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,25 +273,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1631899732 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4667900854239551224, guid: d6834fe065295814d8d657cc943fffec, type: 3}
-  m_PrefabInstance: {fileID: 4667900852616564396}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1631899734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631899732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9eb4877b23572d4429d0129ade911bd1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 400
-  playerBody: {fileID: 418685875}
 --- !u!1001 &4667900852616564396
 PrefabInstance:
   m_ObjectHideFlags: 0
