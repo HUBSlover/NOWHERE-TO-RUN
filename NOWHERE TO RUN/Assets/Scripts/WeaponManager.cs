@@ -8,6 +8,7 @@ public class WeaponManager : MonoBehaviour
     public float range = 100f;
     public float damage = 25f;
     public Animator playerAnimator;
+    public ParticleSystem muzzleFlash;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,7 @@ public class WeaponManager : MonoBehaviour
     void Shoot()
     {
         playerAnimator.SetBool("isShooting", true);
-
+        muzzleFlash.Play();
         RaycastHit hit;
 
         if(Physics.Raycast(playerCam.transform.position, transform.forward, out hit, range))
