@@ -9,11 +9,12 @@ public class WeaponManager : MonoBehaviour
     public float damage = 25f;
     public Animator playerAnimator;
     public ParticleSystem muzzleFlash;
+    public AudioSource m_shootingSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        m_shootingSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,6 +29,7 @@ public class WeaponManager : MonoBehaviour
         if(Input.GetButtonDown("Fire1"))
         {
             //Debug.Log("Shoot");
+            m_shootingSound.Play();
             Shoot();
         }
     }
