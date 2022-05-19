@@ -404,6 +404,7 @@ MonoBehaviour:
   damage: 20
   health: 100
   gameManager: {fileID: 0}
+  hitSound: {fileID: 0}
 --- !u!195 &8693654724888744694
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -477,7 +478,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 5
+  MaxDistance: 10
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

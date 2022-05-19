@@ -10,6 +10,7 @@ public class EnemyManager : MonoBehaviour
     public float damage = 20f;
     public float health = 100f;
     public GameManager gameManager;
+    public AudioSource hitSound;
 
     public void Hit(float damage)
     {
@@ -24,6 +25,7 @@ public class EnemyManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hitSound = gameObject.AddComponent<AudioSource>();
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
