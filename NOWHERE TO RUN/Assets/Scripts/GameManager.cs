@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject enemyPrefab;
 
-    public Text roundNumber;
+    [SerializeField] private Text roundNumber; //если переменная не используется в других классах, можно добавить сериалфилд, чтобы поле появилось в инспекторе, т.е. в самом юнити
     public Text roundsSurvived;
     public GameObject endScreen;
 

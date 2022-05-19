@@ -1345,4 +1345,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/ivanl/Downloads/NOWHERE TO RUN.exe
+  playerPath: C:/Users/ivanl/Downloads/Build/NOWHERE TO RUN.exe
